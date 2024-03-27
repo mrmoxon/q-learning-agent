@@ -50,6 +50,10 @@ class RandomAgent(Agent):
 # choice.
 class RandomishAgent(Agent):
 
+    def __init__(self, numTraining):
+        self.numTraining = numTraining     
+        print("numTraining:", numTraining)       
+
     def getAction(self, state):
         # Get the actions we can try, and remove "STOP" if that is one of them.
         legal = state.getLegalPacmanActions()
