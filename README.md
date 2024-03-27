@@ -2,7 +2,7 @@
 
 Run the training command in the directory. i.e. for 2000 runs of training and 10 runs of playing in a small grid, run:
 
-   python pacman.py -p QLearnAgent -x 2000 -n 2010 -l smallGrid
+      python pacman.py -p QLearnAgent -x 2000 -n 2010 -l smallGrid
 
 Q-learning enables an agent to learn the optimal policy—mapping states to actions—without needing a model of the environment. It learns from the consequences of actions taken, which makes it powerful for problems where the model dynamics are complex or unknown, like navigating a maze in Pacman.
 
